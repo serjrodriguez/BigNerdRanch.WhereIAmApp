@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49CD08BB1EA4569A00B7C235 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD08BA1EA4569A00B7C235 /* MapKit.framework */; };
+		49CD08BE1EA45BA500B7C235 /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD08BD1EA45BA500B7C235 /* BNRMapPoint.m */; };
 		49D536AC1EA419430003555C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D536AB1EA419430003555C /* main.m */; };
 		49D536AF1EA419430003555C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D536AE1EA419430003555C /* AppDelegate.m */; };
 		49D536B21EA419430003555C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D536B11EA419430003555C /* ViewController.m */; };
@@ -19,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		49CD08BA1EA4569A00B7C235 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49CD08BC1EA45BA500B7C235 /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		49CD08BD1EA45BA500B7C235 /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 		49D536A71EA419430003555C /* WhereAmI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D536AB1EA419430003555C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49D536AD1EA419430003555C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				49D536AE1EA419430003555C /* AppDelegate.m */,
 				49D536B01EA419430003555C /* ViewController.h */,
 				49D536B11EA419430003555C /* ViewController.m */,
+				49CD08BC1EA45BA500B7C235 /* BNRMapPoint.h */,
+				49CD08BD1EA45BA500B7C235 /* BNRMapPoint.m */,
 				49D536B31EA419430003555C /* Main.storyboard */,
 				49D536B61EA419430003555C /* Assets.xcassets */,
 				49D536B81EA419430003555C /* LaunchScreen.storyboard */,
@@ -168,6 +173,7 @@
 			files = (
 				49D536B21EA419430003555C /* ViewController.m in Sources */,
 				49D536AF1EA419430003555C /* AppDelegate.m in Sources */,
+				49CD08BE1EA45BA500B7C235 /* BNRMapPoint.m in Sources */,
 				49D536AC1EA419430003555C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

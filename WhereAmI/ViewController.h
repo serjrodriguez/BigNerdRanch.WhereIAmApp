@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <Mapkit/Mapkit.h>
 
-@interface ViewController : UIViewController<CLLocationManagerDelegate>{
+@interface ViewController : UIViewController<CLLocationManagerDelegate, MKMapViewDelegate, UITextFieldDelegate>{
     
     CLLocationManager *locationManager;
     
@@ -19,6 +19,9 @@
     IBOutlet UITextField *locationTitleField;
     
 }
+
+-(void)findLocation;
+-(void)foundLocation:(CLLocation *)loc;
 
 @end
 
